@@ -1,4 +1,4 @@
-// Copyright 2018 Jonah Snider
+// Copyright 2018 black Jonah Snider
 
 // Set up dependencies
 const { CommandoClient, FriendlyError } = require('discord.js-commando');
@@ -51,7 +51,8 @@ client.registry
     ['selfroles', 'Selfroles'],
     ['minecraft', 'Minecraft'],
     ['economy', 'Economy'],
-    ['dev', 'Developer']
+    ['dev', 'Developer'],
+    ['music', 'Music']
   ])
 
   // Registers all built-in groups, commands, and argument types
